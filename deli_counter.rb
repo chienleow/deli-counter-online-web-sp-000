@@ -1,3 +1,4 @@
+require 'pry'
 def line(katz_deli)
   if katz_deli == []
    puts "The line is currently empty."
@@ -17,6 +18,7 @@ def take_a_number(katz_deli,name)
 end
 
 def now_serving(other_deli)
+  binding.pry
   if other_deli == []
     puts "There is nobody waiting to be served!"
   else
