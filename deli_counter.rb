@@ -17,10 +17,10 @@ def take_a_number(katz_deli,name)
 end
 
 def now_serving(other_deli)
-  if katz_deli == []
+  if other_deli == []
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{katz_deli[0]}"
-    name = katz_deli.shift
+    name = other_deli.shift
   end
 end
