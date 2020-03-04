@@ -18,7 +18,7 @@ def take_a_number(katz_deli,name)
 end
 
 def now_serving(other_deli)
-  binding.pry
+  ## binding.pry
   if other_deli == []
     puts "There is nobody waiting to be served!"
   else
